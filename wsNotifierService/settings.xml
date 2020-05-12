@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionString>User Id=xb_apps_logger;Password=xb_apps_l0gger;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=10.100.0.131)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=DVAZKART)));Validate Connection=True;</ConnectionString>
+  <ProcedureName>XB_LOGGER.LOG</ProcedureName>
+  <ClientInfo>wsNotifierService</ClientInfo>
+  <LogEnabled>true</LogEnabled>
+</Settings>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0-preview3.19553.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OracleHelper">
+      <HintPath>..\..\..\..\For Development\Asp.Net Core Web Api\OracleHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="XBLoggerStandard">
+      <HintPath>..\..\..\..\DotNetClassLibraries\XBLoggerStandard\XBLoggerStandard\bin\Release\netstandard2.0\XBLoggerStandard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

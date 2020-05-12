@@ -1,0 +1,2 @@
+Object reference not set to an instance of an object.
+   at XBLogger.Logger.<>c__DisplayClass9_0.<LogError>b__0() in D:\GIT\TESTS\DotNetClassLibraries\XBLoggerStandard\XBLoggerStandard\Logger.cs:line 117
